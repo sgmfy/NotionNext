@@ -15,7 +15,7 @@ const CONFIG = {
   HEXO_SHOW_START_READING: true,
 
   // 菜单配置
-  HEXO_MENU_INDEX: true, // 显示首页
+  HEXO_MENU_INDEX: false, // 显示首页
   HEXO_MENU_CATEGORY: true, // 显示分类
   HEXO_MENU_TAG: true, // 显示标签
   HEXO_MENU_ARCHIVE: true, // 显示归档
@@ -26,7 +26,7 @@ const CONFIG = {
   HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
   HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
-  HEXO_POST_LIST_SUMMARY: true, // 文章摘要
+  HEXO_POST_LIST_SUMMARY: false, // 文章摘要
   HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
   HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
