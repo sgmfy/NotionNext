@@ -98,11 +98,11 @@ const CONFIG = {
   /** 正面标题 */
   FUWARI_CONTACT_TITLE: '社区',
   /** 正面说明文案 */
-  FUWARI_CONTACT_DESCRIPTION: '欢迎交流与反馈',
+  FUWARI_CONTACT_DESCRIPTION: '欢迎留个爪',
   /** 正面右上角徽标 */
   FUWARI_CONTACT_FRONT_BADGE: 'Community',
   /** 跳转 URL（外链或站内路径） */
-  FUWARI_CONTACT_URL: 'https://docs.tangly1024.com/article/chat-community',
+  FUWARI_CONTACT_URL: 'https://yanzhidian.netlify.app',
   /** 正面行动文案（如「联系我们 →」） */
   FUWARI_CONTACT_TEXT: '查看',
   /** 是否使用正反面翻转卡片 */
@@ -112,7 +112,7 @@ const CONFIG = {
   /** 背面说明 */
   FUWARI_CONTACT_BACK_DESCRIPTION: '可提交问题、建议与合作意向。',
   /** 背面行动文案 */
-  FUWARI_CONTACT_BACK_TEXT: '查看',
+  FUWARI_CONTACT_BACK_TEXT: '留爪 & 查看',
 
   // ---------------------------------------------------------------------------
   // 全站动效（按需开启，可能影响性能）
