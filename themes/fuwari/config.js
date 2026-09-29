@@ -46,7 +46,7 @@ const CONFIG = {
   // 首页 Hero 大图区（封面来自站点信息或下方图片配置）
   // ---------------------------------------------------------------------------
   /** 是否渲染 Hero 区块（无图时仍占位，可按需关） */
-  FUWARI_HERO_ENABLE: true,
+  FUWARI_HERO_ENABLE: false,
   /** 自定义背景图 URL；留空则用 Notion 站点封面或 HOME_BANNER_IMAGE */
   FUWARI_HERO_BG_IMAGE: '',
   /** 右下角署名文案；留空不显示 */
