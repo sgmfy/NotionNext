@@ -64,7 +64,7 @@ const CONFIG = {
   /** 公告（有公告数据时） */
   FUWARI_WIDGET_NOTICE: false,
   /** 最新文章列表 */
-  FUWARI_WIDGET_LATEST_POSTS: true,
+  FUWARI_WIDGET_LATEST_POSTS: false,
   /** 分类云/列表 */
   FUWARI_WIDGET_CATEGORY_LIST: true,
   /** 标签云/列表 */
@@ -134,9 +134,9 @@ const CONFIG = {
   /** 文首：日期、分类、标签等元信息 */
   FUWARI_ARTICLE_META: true,
   /** 分享条 */
-  FUWARI_ARTICLE_SHARE: false,
+  FUWARI_ARTICLE_SHARE: true,
   /** 文章版权声明：true 全部显示；false 全部关闭；custom 仅填写 copyright 时显示 */
-  FUWARI_ARTICLE_COPYRIGHT: true,
+  FUWARI_ARTICLE_COPYRIGHT: false,
   /** 文末评论区（需在 `blog.config.js` 配置任一种评论服务，如 COMMENT_GISCUS_REPO / COMMENT_TWIKOO_ENV_ID 等，否则不渲染） */
   FUWARI_ARTICLE_COMMENT: true,
   /** 文末上一篇 / 下一篇 */
