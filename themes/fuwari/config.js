@@ -64,7 +64,7 @@ const CONFIG = {
   /** 公告（有公告数据时） */
   FUWARI_WIDGET_NOTICE: false,
   /** 最新文章列表 */
-  FUWARI_WIDGET_LATEST_POSTS: false,
+  FUWARI_WIDGET_LATEST_POSTS: true,
   /** 分类云/列表 */
   FUWARI_WIDGET_CATEGORY_LIST: true,
   /** 标签云/列表 */
@@ -88,7 +88,7 @@ const CONFIG = {
   /** 默认品牌色相 0–360 */
   FUWARI_THEME_COLOR_HUE: 52,
   /** true：隐藏顶栏调色盘按钮，无法在站内改色相 */
-  FUWARI_THEME_COLOR_FIXED: false,
+  FUWARI_THEME_COLOR_FIXED: true,
   /** 文章页右侧浮动区：跳转评论区按钮 */
   FUWARI_WIDGET_TO_COMMENT: true,
   /** 文章页右侧浮动区：深色模式切换 */
@@ -114,7 +114,7 @@ const CONFIG = {
   /** 背面标题 */
   FUWARI_CONTACT_BACK_TITLE: '支持内容',
   /** 背面说明 */
-  FUWARI_CONTACT_BACK_DESCRIPTION: '可提交问题、建议与合作意向。',
+  FUWARI_CONTACT_BACK_DESCRIPTION: '…思如泉涌…吗！',
   /** 背面行动文案 */
   FUWARI_CONTACT_BACK_TEXT: '留爪 & 查看',
 
@@ -136,7 +136,7 @@ const CONFIG = {
   /** 分享条 */
   FUWARI_ARTICLE_SHARE: true,
   /** 文章版权声明：true 全部显示；false 全部关闭；custom 仅填写 copyright 时显示 */
-  FUWARI_ARTICLE_COPYRIGHT: false,
+  FUWARI_ARTICLE_COPYRIGHT: custom,
   /** 文末评论区（需在 `blog.config.js` 配置任一种评论服务，如 COMMENT_GISCUS_REPO / COMMENT_TWIKOO_ENV_ID 等，否则不渲染） */
   FUWARI_ARTICLE_COMMENT: true,
   /** 文末上一篇 / 下一篇 */
